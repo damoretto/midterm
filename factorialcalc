@@ -1,0 +1,12 @@
+while(True):
+#asking for user input and specifying input type as an integer
+    num = int(input("enter an integer: "))
+#handling error case - negative integer inputted
+    if (num < 0):
+        num = -1*num
+# giving factorial a value for first run through of loop
+    factorial = num
+#factorial calculator - while loop to multiply num to itself minus 1 down to 1
+    while (num > 1):
+        factorial = factorial*(num-1)
+        num -= 1
