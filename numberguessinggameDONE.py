@@ -7,9 +7,9 @@ import random
 
 while(True):
     
-    number = random.randint(1,100)
+    number = random.randint(1,25)
 
-    guess = int(input("guess a number between 1 and 100! "))
+    guess = int(input("guess a number between 1 and 25! "))
     
     if guess == number:
         print('You guessed it!')
